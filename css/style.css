@@ -1,0 +1,79 @@
+/* ## BOOTSTRAP ICONS ## */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+
+/* #### NAVEGACION #### */
+.bi-search{
+  font-size: 1.5em;
+}
+
+.bg-navegacion{
+  background-color: #fff159;
+}
+
+
+ul >li {
+  list-style: none;
+}
+
+/* #### MAIN ######## */
+
+.carousel{
+  height: 165px;
+}
+
+.carousel img{
+  height: 165px;
+}
+
+main {
+  background-color: #e7eae9;
+  padding-bottom: 5em;
+}
+
+
+/* ### FOOTER #### */
+footer{
+  background-color: #ccc;
+}
+
+
+/* ########## MEDIA QUERIES ############# */
+      
+      /* ######### MEDIDA TABLET ######## */
+@media all and (min-width:768px){
+
+  /* #### MAIN ###### */
+  .card{
+    width: calc(100% / 2.1);  
+  }
+}
+
+      /* ###### MEDIDA PC ESCRITORIO ######### */
+@media all and (min-width:920px){
+  /* ### NAVEGACIÓN #### */
+  .buscador-link{
+    position: absolute;
+    right: 0;
+  }
+
+  /* ### CAROUSEL #### */
+  .carousel{
+    height: auto;
+  }
+  
+  .carousel img{
+    height: auto;
+  }
+
+    /* #### MAIN ###### */
+    .card{
+      width: calc(100% / 4.2);  
+    }
+
+    /* ### COMO PAGAR ### */
+    .font{
+      font-size: 1em;
+    }
+
+}
